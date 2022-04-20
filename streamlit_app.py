@@ -65,7 +65,7 @@ def render_data():
 
 @st.cache(allow_output_mutation=True, persist=True)
 def prep_analysis(df: pd.DataFrame):
-    pr = ProfileReport(df, title="Water Pumps Profiling Report")
+    pr = ProfileReport(df, title="Water Pumps Profiling Report", minimal=True)
     return pr
 
 
