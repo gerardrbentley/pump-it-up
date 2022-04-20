@@ -33,7 +33,7 @@ reports_dir = Path("reports")
 
 def render_home():
     st.subheader("Project Home Page")
-    st.write("Water Pump functionaliy prediction. Based on DrivenData challenge")
+    st.write("Water Pump functionality prediction. Based on DrivenData challenge")
 
     st.subheader("Make a prediction")
     models = Path("models").glob("*")
