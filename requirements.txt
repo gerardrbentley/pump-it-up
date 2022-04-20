@@ -1,3 +1,4 @@
 lightgbm==3.3.2
 plotly==5.7.0
 streamlit==1.8.1
+streamlit-pandas-profiling==0.1.3
